@@ -56,5 +56,11 @@ body {
 
 .modal-content iframe{
     margin: 0 auto;
+    width: 550px;
+    height: 360px;
 display: block;
+}
+
+.modal-backdrop.fade{
+  z-index: -1;
 }
