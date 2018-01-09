@@ -2,10 +2,9 @@
 var videos = [
 '67992885?autoplay=1&title=0&byline=0&portrait=0',
 '246758971?autoplay=1&title=0&byline=0&portrait=0',
-'49231288?color=bababa&title=0&byline=0&portrait=0',
-'217625988?color=bababa&title=0&byline=0&portrait=0'
+'49231288?autoplay=1&color=bababa&title=0&byline=0&portrait=0',
+'217625988?autoplay=1&color=bababa&title=0&byline=0&portrait=0'
 ];
-
 
 var links = [
 "https://www.google.fr/flights/#search;f=TLV;t=CGK,HLP;d=2018-01-24;r=2018-01-28",
@@ -17,7 +16,6 @@ var links = [
 var index=Math.floor(Math.random() * videos.length);
 
 console.log(index);
-
 
 var myFrame= '<iframe src="https://player.vimeo.com/video/' + videos[index] + ' width="640" height="360" " frameborder="0"></iframe>';
 
